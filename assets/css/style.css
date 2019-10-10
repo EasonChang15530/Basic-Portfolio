@@ -1,8 +1,8 @@
 body {
-    background-image: url("assets/images/cork_board.png");
+    background-image: url("../../assets/images/cork-board.png");
     width:960px; 
     margin:0 auto; 
-    text-align:left 
+    text-align:left；
 }
 
 header {
@@ -14,20 +14,19 @@ header {
     margin: auto;
 }
 
-#nav{
+.navigation:hover{
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#nav0 {
     float: left;
     width: 70%;
     font-size: 30px;
         
 }
-h2{
-    margin-left: 40px;
-    font-family: fantasy;
-}
 
-p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
 #nav1 {
     float: left;
     width: 10%;
@@ -42,19 +41,134 @@ p{
 }
 
 body {
-    
     width: 960px;
 
 }
-img{
+h2{
+    margin-left: 40px;
+    font-family: fantasy;
+}
+#img0{
     float: left;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#img1{
+    margin: 30px;   
+}
+#img2{
+    margin: 30px;
+}
+#img3{
+    margin: 30px;
+}
+#img4{
+    margin: 30px;
+}
+#img5{
+    margin: 30px;
 }
 
 
-
+#label1 {
+    font-family: monospace;
+    font-size: 20px;
+    color: wheat;
+    background-color: teal;
+    position: absolute;
+    top: 318px;
+    left: 246px;
+    z-index: 999;
+}
+#label2 {
+    font-family: monospace;
+    font-size: 20px;
+    color: wheat;
+    background-color: teal;
+    position: absolute;
+    top: 318px;
+    left: 503px;
+    z-index: 999;
+}
+#label3 {
+    font-family: monospace;
+    font-size: 20px;
+    color: wheat;
+    background-color: teal;
+    position: absolute;
+    top: 318px;
+    left: 752px;
+    z-index: 999;
+}
+#label4 {
+    font-family: monospace;
+    font-size: 20px;
+    color: wheat;
+    background-color: teal;
+    position: absolute;
+    top: 580px;
+    left: 176px;
+    z-index: 999;
+}
+#label5 {
+    font-family: monospace;
+    font-size: 20px;
+    color: wheat;
+    background-color: teal;
+    position: absolute;
+    top: 580px;
+    left: 438px;
+    z-index: 999;
+}
 footer{
     padding: 30px;
     width: 900px;
     background: grey;
     margin: auto;
+}
+
+.info{
+    margin-left: 40px;
+}
+
+#input1{
+    font-family: cursive;
+    font-size: 20px;
+    color: blue;
+    width: 880px; 
+}
+
+#input2{
+    font-family: cursive;
+    font-size: 20px;
+    color: blue;
+    width: 880px; 
+}
+
+#input3{
+    font-family: cursive;
+    font-size: 20px;
+    color: blue;
+    width: 880px; 
+    height: 200px;
+    /* vertical-align: top; */
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40px 40px;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
