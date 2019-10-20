@@ -10,14 +10,14 @@ body {
 
 
 /* Style the top navigation bar */
-.topnav {
+.navbar {
   overflow: hidden;
   background-color: lightyellow;
   /* position: fixed; */
   margin: 10px;
 }
 
-/* Style the topnav logo */
+/* Style the navbar logo */
 #logo{
   font-family: 'Dancing Script', cursive;
   font-size: 36px;
@@ -27,8 +27,8 @@ body {
 }
 
 
-/* Style the topnav links */
-.topnav a {
+/* Style the navbar links */
+.navbar a {
   float: left;
   display: block;
   color: grey;
@@ -36,14 +36,14 @@ body {
   padding: 14px 16px;
   text-decoration: none;
 }
-.topnav .jumpbutton{
+.navbar .jumpbutton{
   float: right;
   /* margin-right: 200px; */
 }
 
 
 /* Change color on hover */
-.topnav a:hover {
+.navbar a:hover {
   background-color: lightblue;
   color: blue;
 }
@@ -55,6 +55,9 @@ body {
   margin: 0 auto;
 }
 
+img{
+  float: left;
+}
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
