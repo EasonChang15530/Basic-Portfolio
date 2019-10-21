@@ -53,9 +53,13 @@ body {
 .maincontent {
   max-width: 960px;
   margin: 0 auto;
+  font-family: 'Satisfy', cursive;
+  font-size: 26px;
+  color: rgb(32, 68, 48);
 }
 
 img{
+  margin-right: 20px;
   float: left;
 }
 
@@ -69,6 +73,7 @@ img{
 /* Style the footer */
 .footer {
   background-color: lightyellow;
+  color: grey;
   padding: 10px;
   text-align: center;
 }
