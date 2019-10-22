@@ -1,36 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
+
 <head>
-    <title>Contact</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <title>Contact | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Caveat|Courgette|Dancing+Script|Indie+Flower|Modak|Pacifico|Permanent+Marker|Satisfy&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <nav id="nav0"> Bailing </nav>
-        
-        <nav class="navigation" id="nav1"> About </nav>
-        <nav class="navigation"id="nav2"> Portfolio </nav>
-        <nav class="navigation"id="nav3"> contact </nav>
-            
-    </header>
 
-    <h2> Contact </h2>
-    <div class="info">
-        <p> Name </p>
-        <input id="input1" type="text" value="Bailing">
-
-        <p> Email </p>
-        <input id="input2" type="text" value="eason15530@gmail.com">
-
-        <p> Message </p>
-        <input id="input3" type="text" value="">
+  <div class="navbar">
+    <a href="#" id="logo">Bailing</a>
+    <div class="jumpbutton">
+      <a href="index.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
     </div>
+  </div>
 
-    <button class="button">Submit</button>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-    <footer>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Bailing" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="eason15530@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-    </footer>
-    
+    </section>
+
+  </div>
+
+  <div class="footer">
+    <p>Copyright &copy;</p>
+  </div>
+
 </body>
+
 </html>
