@@ -96,8 +96,33 @@ h3 {
 
 /* Style the footer */
 .footer {
+  position: fixed;
+  bottom:0;
   background-color: lightyellow;
-  color: grey;
+  color: rgba(128, 128, 128, 0);
   padding: 10px;
   text-align: center;
+  width: 100%;
+}
+/* contact page */
+
+li {
+  margin: 30px;
+  
+}
+
+input {
+  line-height: 30px;
+  width: 400px;
+  background-color: lightyellow;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+textarea {
+  height: 100px;
+  width: 400px;
+  background-color: lightyellow;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
 }
